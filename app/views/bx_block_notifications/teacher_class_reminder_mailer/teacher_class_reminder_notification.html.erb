@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <title>Class Reminder</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color: #F5F5F5; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">
+  <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+    <h3 style="color: #333333; text-align: left;"><strong>Class Reminder</strong></h3>
+    <p style="color: #333333;text-align: center;"><strong>Hi, <%= @teacher.first_name %> </strong></p>
+<p style="color: #333333;text-align: center;"><strong>You have a new class coming up. The details are given below:</strong></p>
+<p>Date  :  <%= @class_date %></p>
+<p>Time  :  <%= @class_time %></p>
+<p>Subject: <%= @class_subject %></p>
+<br><br>
+    <p style="color: #333333;text-align: center;"><strong>The Lingoamo team</strong></p>
+    
+  </div>
+</body>
+</html>

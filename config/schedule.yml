@@ -1,0 +1,4 @@
+group_class_cancel:
+  cron: "0 1 * * *"
+  class: "BxBlockClasses::GroupClassCancelWorker"
+  queue: default

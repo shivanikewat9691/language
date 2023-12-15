@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <title>Canceled Class</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color: #F5F5F5; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">
+  <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+    <p style="color: #333333;text-align: center;"><strong>Hello, <%= @student.first_name %> </strong></p>
+    <p style="color: #333333;text-align: center;"><strong>Your group lesson was cancelled because the minimum number of participants was not reached./strong></p>
+    <p style="color: #333333;text-align: center;"><strong>Please see the details below:</strong></p>
+    <p>Subject: <%= @class_title %></p>
+    <p>Date: <%= @class_date %></p>
+    <p>Time: <%= @class_time %></p>
+    <br><br>
+    <p style="color: #333333;text-align: center;"><strong>We apologise for the inconvenience but you don't have to worry, because you can find another class below:</strong></p>
+    <p style="color: #333333;text-align: center;"><strong>[Show next classes]</strong></p>
+    <p style="color: #333333;text-align: center;"><strong>You can always contact us if you have any further questions.</strong></p>
+    <p style="color: #333333;text-align: center;"><strong>Success with your language training!</strong></p>
+
+    <br><br>
+    <p style="color: #333333;text-align: center;"><strong>Best wishes,<br>The Lingoamo team</strong></p>
+
+    <br><br>
+    <p style="color: #333333;text-align: center;">Lingoamo sends you emails and notifications about your learning progress and our products. You can unsubscribe from our notifications at any time in the [manage notifications**] section. However, the messages are helpful and to support your learning better.</p>
+    <p style="color: #333333;text-align: center;">Your personal data will be treated in accordance with our [privacy policy***].</p>
+  </div>
+</body>
+</html>
